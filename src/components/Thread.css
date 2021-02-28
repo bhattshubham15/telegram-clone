@@ -1,0 +1,88 @@
+.thread {
+    background-color: white;
+    display: flex;
+    flex: 0.75;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.thread__header {
+    display: flex;
+    border-bottom: 1px solid rgba(190, 190, 190, .1);
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thread__header__contents {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.thread__header__content__info > h5 {
+    font-weight: 500;
+    color: gray;
+}
+
+.thread__header__content__info {
+    padding-left: 15px;
+}
+
+.thread__header__details:hover {
+    color: rgba(1, 150, blue, alpha);
+}
+
+.thread__messages {
+    flex: 1;
+    /* overflow: scroll; */
+}
+
+.thread__header::-webkit-scrollbar {
+    display: none;
+}
+
+.thread__input {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-top: 1px solid rgba(190, 190, 190, .1);
+}
+
+.thread__input > form {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.thread__input > form > input {
+    width: 98%;
+    outline-width: 0;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    padding: 5px;
+    color: black;
+}
+
+.thread__input > form > button {
+    color: black;
+}
+
+.thread__input > form > button:hover {
+    background-color: rgb(2, 150, 199);
+}
+
+.thread__notvisited__parent {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
