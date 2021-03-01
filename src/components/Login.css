@@ -15,7 +15,8 @@
 .login > button {
     width: 300px;
     color: white;
-    background-color: rgb(2, 150, 199);
+    /* background-color: rgb(2, 150, 199); */
+    background-color: rgb(245 0 87 / 50%);
 }
 
 .login > button:hover {
