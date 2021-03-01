@@ -37,7 +37,7 @@
 
 .thread__messages {
     flex: 1;
-    /* overflow: scroll; */
+    overflow-y: scroll;
 }
 
 .thread__header::-webkit-scrollbar {
